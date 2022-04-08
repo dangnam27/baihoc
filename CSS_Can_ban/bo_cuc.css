@@ -1,0 +1,46 @@
+header {
+    height: 70px;
+    background-color: blanchedalmond;
+}
+aside {
+    width: 30%;
+    background-color: brown;
+    height: 700px;
+    overflow: scroll;
+}
+article {
+    width: 70%;
+    background-color: rgb(2, 255, 255);
+    height: 700px;
+}
+aside, article {
+    float: left;
+}
+footer {
+    background-color: #f0ecec
+    ;
+    height: 30px;
+    clear: both;
+}
+#logo {
+    height: 70px;
+    margin-bottom: 10%;
+}
+#logo img{
+    height: 100%;
+}
+nav {
+   text-align: center;
+   background-color: aliceblue;
+   height: 35px;
+   margin-bottom: 10px;
+}
+/* section {
+    background-color: rgb(233, 215, 171);
+    height: 100px;
+    margin-bottom: 10px;
+} */
+section img {
+    width: 100%;
+
+}

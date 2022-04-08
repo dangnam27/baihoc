@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+div {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border: 3px solid;
+    margin: 20px auto;
+    background-color: rgb(235, 235, 243);
+    color:wrgb(0, 0, 0);
+    border-radius: 25px;
+}
+#kho1 {
+    background-color: bisque;
+}
+#kho2 {
+    background-color: rgb(210, 247, 234);
+}
+h1 {
+   
+    font-size: 50px;
+    text-align: center;
+}
+body {
+    background-image: url('/CSS_Can_ban/img/trang.jpg');
+    background-size: cover;
+    background-position: center center;
+}

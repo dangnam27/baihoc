@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* chọn tất cả những thẻ div là con, cháu của class parent */
+    .parent div {
+        color: rgb(250, 0, 0);
+    }
+    /* Chọn tất cả những thẻ div con của của class parent  */
+    .parent > div {
+        color: aqua;
+
+    }
+    /* chọn tất cả những thẻ div là anh chị em chung của class .parent_1 */
+    .parent_1 ~ div {
+        color: rgb(41, 0, 138);
+        
+    }
+    .parent_1:hover {
+        color: blanchedalmond;
+    }
+    .parent_1 {
+        display: none;
+    }
+    .parent:hover .parent_1{
+        display: block;
+    }
+    .parent::first-letter {
+        color: brown;
+        font-size: large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .parent_1::after{
+        content: trong 1 gia đình;
+
+    }
+    /* img:hover{
+        opacity: 0,5;
+    } */
+    div.image {
+        background-image: url(/CSS_Can_ban/img/pexels-brett-sayles-1936752.jpg);
+        width: 300px;
+        height: 200px;
+        background-size: cover;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transition: width 2s, height 4s;
+    }
+    img:hover {
+        width: 300px;
+        height: 300px;
+        transform: rotate(180deg);
+    }
+    .image div{
+        color: chartreuse;
+        position:absolute;
+        top: 50%;
+        left: 20%;
+        opacity: 0.7;
+        width: 100px;
+        height: 100px;
+       background-color: aliceblue;
+    }
+</style>
+<body>
+    <div class="parent"> Đây là ông
+        <div  >đây là con thứ nhất
+             <div>đây là cháu thứ nhất</div>
+             <div>đây là cháu thứ hai</div>
+        </div>
+        <div class="parent_1">đây là con thứ 2</div>
+        <div>đây là con thứ 3</div>
+    </div>
+    <div class="image">
+        <div>đây là nội dung</div>
+    </div>
+</body>
+</html>
