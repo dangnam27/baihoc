@@ -305,7 +305,6 @@ hr {
     flex-wrap: wrap;
 }
 
-.footer-left,
 .footer-right {
     flex-basis: 45%;
     padding: 10px;
@@ -356,8 +355,6 @@ hr {
     font-size: 12px;
     margin-top: 20px;
 }
-
-.footer-left .bi,
 .footer-right .bi {
     font-size: 20px;
     color: #009688;
