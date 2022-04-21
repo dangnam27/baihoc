@@ -173,7 +173,6 @@ nav ul li a {
     padding: 70px 0;
     background: #efefef;
 }
-
 .service-box {
     width: 80%;
     display: flex;
@@ -181,7 +180,6 @@ nav ul li a {
     justify-content: space-around;
     margin: auto;
 }
-
 .single-service {
     flex-basis: 48%;
     text-align: center;
@@ -190,12 +188,10 @@ nav ul li a {
     color: #fff;
     position: relative;
 }
-
 .single-service img {
     width: 100%;
     border-radius: 7px;
 }
-
 .overlay {
     width: 100%;
     height: 100%;
@@ -207,11 +203,9 @@ nav ul li a {
     opacity: 0;
     transition: 1s;
 }
-
 .single-service:hover .overlay {
     opacity: 1;
 }
-
 .service-desc {
     width: 80%;
     position: absolute;
@@ -221,7 +215,6 @@ nav ul li a {
     transform: translateX(-50%);
     transition: 1s;
 }
-
 hr {
     background-color: #fff;
     height: 2px;
@@ -229,11 +222,9 @@ hr {
     margin: 15px auto;
     width: 60%;
 }
-
 .service-desc p {
     font-size: 14px;
 }
-
 .single-service:hover .service-desc {
     bottom: 40%;
     opacity: 1;
@@ -242,7 +233,6 @@ hr {
     width: 100%;
     padding: 70px 0;
 }
-
 .testimonial-row {
     width: 80%;
     margin: auto;
@@ -251,7 +241,6 @@ hr {
     align-items: flex-start;
     flex-wrap: wrap;
 }
-
 .testimonial-col {
     flex-basis: 28%;
     padding: 10px;

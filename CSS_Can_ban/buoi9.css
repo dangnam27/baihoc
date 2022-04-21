@@ -1,0 +1,7 @@
+.collapse  {
+    padding: 10px;
+    margin-right: 150px;
+    display: flex;
+    text-align: center;
+    justify-content:end;
+}
