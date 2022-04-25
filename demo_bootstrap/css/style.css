@@ -178,10 +178,14 @@ header .container .col-md-7 p{
      height: 70vmin;
      background: var(--bgradient);
  }
- .section .destop {
+ .section-3 .desktop {
      background: white;
      border-radius: 3em;
      display: inline-block;
+     height: 100px ;
+     width: 260px;
+     text-align: center;
+     justify-content: center;
  }
 
 
@@ -189,6 +193,7 @@ header .container .col-md-7 p{
      padding: 2em 0 0.5 0;
      color: white;
      font-size: 6vmin;
+     padding-top: 100px;
  }
  .section-3 .col-md-12 p {
      padding: 0 4em;
@@ -197,10 +202,10 @@ header .container .col-md-7 p{
      color: white;
  }
 
-  .section-3 .destop h3 {
+  .section-3 .desktop h3 {
       font-size: 4vmin; 
   }
-  .section-3 .destop p {
+  .section-3 .desktop p {
       font-size: 3vmin; 
   }
   /* section 4 */
